@@ -58,17 +58,28 @@ public class Java_3 {
 	}
 
 	// 判断水仙花数（基本）
+	
 	private static boolean isLotus2(int lotus) {
 		int m = lotus / 100;
+		
 		int n = lotus / 10 % 10;
+		
 		int t = lotus % 10;
+		
 		int sum = 0;
+		
 		sum = m * m * m + n * n * n + t * t * t;
+		
 		if (sum == lotus) {
+			
 			return true;
+			
 		} else {
+			
 			return false;
+			
 		}
+		
 	}
 
 }
